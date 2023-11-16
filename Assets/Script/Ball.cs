@@ -44,27 +44,27 @@ public class Ball : MonoBehaviour
                 rd.material.color = Color.red;
                 break;
             case BallColors.Yellow:
-                point = 0;
+                point = 2;
                 rd.material.color = Color.yellow;
                 break;
             case BallColors.Green:
-                point = 0;
+                point = 3;
                 rd.material.color = Color.green;
                 break;
             case BallColors.Brown:
-                point = 0;
+                point = 4;
                 rd.material.color = new Color(91, 42, 6, 255);
                 break;
             case BallColors.blue:
-                point = 0;
+                point = 5;
                 rd.material.color = Color.blue;
                 break;
             case BallColors.Pink:
-                point = 0;
+                point = 6;
                 rd.material.color = Color.magenta;
                 break;
             case BallColors.black:
-                point = 0;
+                point = 7;
                 rd.material.color = Color.black;
                 break;
         }
