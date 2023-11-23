@@ -7,7 +7,7 @@ using UnityEngine;
 
 public enum BallColors
 {
-    White, Red , Yellow , Green , Brown, blue , Pink ,black
+    White, Red , Yellow , Green , Brown, Blue , Pink ,Black
 }
 
 
@@ -55,7 +55,7 @@ public class Ball : MonoBehaviour
                 point = 4;
                 rd.material.color = new Color(91, 42, 6, 255);
                 break;
-            case BallColors.blue:
+            case BallColors.Blue:
                 point = 5;
                 rd.material.color = Color.blue;
                 break;
@@ -63,7 +63,7 @@ public class Ball : MonoBehaviour
                 point = 6;
                 rd.material.color = Color.magenta;
                 break;
-            case BallColors.black:
+            case BallColors.Black:
                 point = 7;
                 rd.material.color = Color.black;
                 break;
